@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/abc_ab_bottom_solid_light_holo"
+    tools:context=".MainActivity">
+
+    <!--<MediaController xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@id/controlContainer">
+
+            <Button
+                android:id="@id/startStreamButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/startStreamText" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stopStreamText"
+                android:id="@id/stopStreamButton" />
+            />
+        </LinearLayout>
+
+    <!--</MediaController>-->
+</LinearLayout>
